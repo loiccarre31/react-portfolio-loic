@@ -34,7 +34,7 @@ const Hero = () => {
                             animate='visible'
                             className="my-2 max-w-xl py-6 tracking-tighter font-[Cafe] text-2xl">{HERO_CONTENT}</motion.p>
                     </div>
-                    <Bouton text={'Envie de collaborer ?'}/>
+                    <Bouton text={'Envie de collaborer ?'} className="lg:flex lg:justify-center lg:w-full"/>
                 </div>
                 <div className="w-full lg:w-1/2 lg:p-8">
                     <div className="flex justify-center">
